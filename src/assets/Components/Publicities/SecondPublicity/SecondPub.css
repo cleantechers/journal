@@ -1,0 +1,36 @@
+.secondPub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 360px;
+    width: 53%;
+    left: 12%;
+    right: 33.97%;
+    top: calc(185% - 80px/2 - 2.5px);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #333333;
+/* background: url(image.png); */
+}
+.secondPub img{
+    width: 100%;
+    height: 100%;
+}
+.textDown1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 53%;
+    left: 12%;
+    right: 33.97%;
+    top: calc(238% - 70px/2 - 2.5px);
+    font-family: 'Merriweather';
+    font-style: normal; 
+    line-height: 40px;
+    color: #333333;
+}

@@ -1,0 +1,45 @@
+.article{
+    position: absolute;
+    height: 250px;
+    left: 12%;
+    right: 33.97%;
+    top: calc(250% - 80px/2 - 2.5px);
+    font-family: 'Merriweather';
+    color: #333333;
+}
+.article .audioArticle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    height: 40px;
+    background: #CCCC;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.365);
+}
+.article .audioArticle .title{
+    display: flex;
+    align-items: center;
+}
+.article .audioArticle .title .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #CCCC;
+    border: 3px solid #1f1e1e;
+    margin: .8rem;
+}
+.article .audioArticle .title .text{
+    color: #1f1e1e;
+    margin-right: .8rem;
+}
+.article .audioArticle .title .time{
+    color: #868686;
+}
+.textArticle{
+    margin-top: 2rem;
+}
+.textArticle p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}

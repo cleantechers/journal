@@ -1,0 +1,65 @@
+.LeftPublicity{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 250px;
+    width: 78%;
+    left: 12%;
+    right: 33.97%;
+    top: calc(130% - 80px/2 - 2.5px);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #333333;
+/* background: url(image.png); */
+}
+.leftPub{
+    background: #036582;
+    width: 68%;
+    height: 100%;
+}
+.LeftPublicity img{
+    width: 100%;
+    height: 100%;
+}
+.rightPub{
+    background: #036582;
+    width: 30%;
+    height: 100%;
+}
+.textDown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 53%;
+    left: 12%;
+    right: 33.97%;
+    top: calc(168% - 70px/2 - 2.5px);
+    font-family: 'Merriweather';
+    font-style: normal; 
+    line-height: 40px;
+    color: #333333;
+    /* background: red; */
+}
+.textDown .links{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.links span{
+    margin-left: 1rem;
+    margin-right: .1rem;
+}
+.textDown .links .img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .2rem;
+    cursor: pointer;
+}

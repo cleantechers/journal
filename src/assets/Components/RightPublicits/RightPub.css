@@ -1,0 +1,68 @@
+.rightPub1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 1000px;
+    width: 23.4%;
+    right: 10%;
+    top: calc(185% - 80px/2 - 2.5px);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #333333;
+}
+.img2Pub img{
+    width: 100%;
+    height: 100%;
+}
+.img2Pub{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 230px;
+    background: #036582;
+}
+.mostRead{
+    position: absolute;
+    top: 17rem;
+    height: 100px;
+    max-width: 230px;
+    font-size: 13px;
+    margin-bottom: 2rem;
+    line-height: 1rem;
+}
+.mostRead h2{
+    margin-bottom: 1rem;
+
+}
+.card .content{
+    color: #036582;
+    margin-bottom: .5rem;
+}
+.card .content num{ 
+    align-items: center;
+    padding: 3px;
+    color: #036582;
+    background-color: rgb(198, 198, 14);
+    font-size: 7px;
+    border-radius: 50%;
+}
+.Public{
+    position: absolute;
+    top: 37rem;
+    height: 40%;
+    width: 100%;
+    font-size: 15px;
+}
+.Public .img3{
+    margin-top: .2rem;
+    width: 100%;
+    height: 450px;
+    background: #036582;
+}
+.Public .img3 img{
+    width: 100%;
+    height: 100%;
+}
