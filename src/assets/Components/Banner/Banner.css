@@ -1,0 +1,9 @@
+.banner{  
+position: absolute;
+width: 970px;
+height: 250px;
+left: 198px;
+top: 275px;
+/* background: url(image.png); */
+background:#036582;
+}
